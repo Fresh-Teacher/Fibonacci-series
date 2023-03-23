@@ -1,14 +1,4 @@
-<!--
-  Congratulations! Your project has been converted to JavaScript!
 
-  You should see a working preview of your project on the right side of
-  the screen. If not, it means something went wrong.
-
-  Your project's code is all stored in the files on the left side of the
-  screen. You can edit the JavaScript code and your project will change.
-  But you have to save your changes using File > Save or Ctrl+S on your
-  keyboard before the project preview will update.
--->
 
 <!DOCTYPE html>
 <html>
@@ -17,10 +7,59 @@
       rel="stylesheet"
       href="https://unpkg.com/leopard@^1/dist/index.min.css"
     />
+    <title>Fibonacci Series Game</title>
   </head>
   <body>
-    <button id="greenFlag">Green Flag</button>
+    <button id="greenFlag">Play Game</button>
     <div id="project"></div>
+
+    <div>
+      <h2>Instructions</h2>
+      <p>Type a number in the text box to get the Fibonacci list of numbers in that range.</p>
+      
+      <p><strong>Level:</strong> Secondary</p>
+      <p><strong>Subject:</strong> Mathematics</p>
+      <p><strong>Content:</strong> Fibonacci Series</p>
+      <p><strong>Competences:</strong>
+         <p>The student:</p>
+      <ul>
+        <li>Lists down Fibonacci Series in their order.</li>
+      </ul>
+      <p><strong>Methods and Techniques:</strong></p>
+      <ul>
+        <li>Question and answer approach</li>
+        <li>Guided discovery</li>
+        <li>Brainstorming</li>
+        <li>Instruction method</li>
+      </ul>
+      <p><strong>Suggested Activities:</strong></p>
+      <p>The student:</p>
+      <ul>
+        <li>Lists down Fibonacci Series in their order.</li>
+      </ul>
+      <p><strong>Life Skills and Values:</strong></p>
+      <ul>
+        <li>Critical thinking</li>
+        <li>Reasoning</li>
+        <li>Accuracy</li>
+      </ul>
+      <p><strong>Instructional Materials:</strong></p>
+      <ul>
+        <li>Desktop computers</li>
+        <li>Laptops</li>
+        <li>Tablets</li>
+        <li>Phones</li>
+      </ul>
+
+      <div style="text-align:center; background-color: grey;">
+        <script>
+          var currentYear = new Date().getFullYear();
+          document.write("&copy; <a href='https://freshteacher.software'>Fresh Teacher Software</a> " + currentYear);
+        </script><br>
+        <span>All Rights reserved</span>
+        </div>
+    </div>
+
 
     <script type="module">
       import project from "./index.js";
